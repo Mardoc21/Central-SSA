@@ -1,0 +1,18 @@
+﻿# --- BLOQUEIO DE SEGURANÇA SSA ---
+# Arquivos de Senha e Identidade
+*.pfx
+*.key
+segredos.py
+
+# Arquivos Pesados (Mídia e Dados)
+*.zip
+*.opus
+*.mp3
+*.mp4
+*.mkv
+memoria-completa.json
+/04-Educacao-Corporativa/03-Banco-de-Videos/
+
+# Arquivos de Sistema
+__pycache__/
+.DS_Store
